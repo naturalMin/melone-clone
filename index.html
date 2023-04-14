@@ -5,12 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/92510bd7c4.js" crossorigin="anonymous"></script>
     <title>Melone</title>
 </head>
 <body>
   <header>
-    <div class="melone_logo"></div>
-    <div class="menu"></div>
+    <div class="melone_logo">
+        <i class="fa-solid fa-circle"></i>
+    </div>
+    <div class="menu">
+        <i class="fa-solid fa-bars"></i>
+    </div>
   </header>
   <main>
     <section id="recommend">
@@ -18,9 +24,11 @@
         <ul>
             <li>
                 <h3>실시간 추천</h3>
-                <div class="recommend_info">
-                    <div class="play_logo"></div>
-                    <h2>오후 1시 MIX</h2>
+                <div class="recommend_info realtime">
+                    <div class="play_logo">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <h2>오후 1시 <br /> MIX</h2>
                     <div class="play_info">
                         <div class="info_img"></div>
                         <div class="info_text">
@@ -32,18 +40,20 @@
             </li>
             <li>
                 <h3>선호 아티스트 같은 느낌</h3>
-                <div class="recommend_info">
-                    <div class="play_logo"></div>
+                <div class="recommend_info favorite">
+                    <div class="play_logo">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
                     <div class="play_cover"></div>
                     <div class="play_info">                      
-                        <p>Ed Sheeran</p>
+                        <h5>Ed Sheeran</h5>
                         <p>Fitz & The Tantrums, Shaw..</p>                        
                     </div>
                 </div>
             </li>
         </ul>
     </section>
-    <section>
+    <section id="events">
         <p>감상평 남기고 경품 받으세요</p>
         <div class="event">
             <div class="event_info">
@@ -56,26 +66,33 @@
             <div class="event_img"></div>
         </div>
     </section>
-    <section>
+    <section id="recent_music">
         <div class="title">
-            <h1>최신음악</h1>
-            <span>전체</span>
-            <div class="line"></div>        
-            <span>국내</span>
-            <div class="line"></div>
-            <span>해외</span>
-            <div class="line"></div>
+            <div class="category">   
+                <h1>최신음악</h1>
+                <span class="active">전체</span>
+                <div class="line"></div>        
+                <span>국내</span>
+                <div class="line"></div>
+                <span>해외</span>
+            </div>            
             <span>전체보기</span>
         </div>
         <ul>
             <li>
-                <div class="play_logo"></div>                
+                <div class="play_logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>                
             </li>
             <li>
-                <div class="play_logo"></div>    
+                <div class="play_logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>    
             </li>
             <li>
-                <div class="play_logo"></div>    
+                <div class="play_logo">
+                    <i class="fa-solid fa-play"></i>
+                </div>    
             </li>
         </ul>
     </section>
