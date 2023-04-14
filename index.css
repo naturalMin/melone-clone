@@ -167,3 +167,17 @@ main {
     padding: 10px;
     border-radius: 3px;    
 }
+nav {
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 25px;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+nav .home {
+    color:#00c43e;
+}
