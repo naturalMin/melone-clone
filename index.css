@@ -4,7 +4,7 @@ header {
     padding: 10px;
     margin: 10px 0;
 }
-.melone_logo i {
+.melone_logo {
     font-size: 25px;
     color: #00d344;
 }
@@ -215,4 +215,27 @@ nav {
 }
 nav .home {
     color:#00c43e;
+}
+@keyframes splashAni {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+#splash_screen {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+    top:0;
+    animation: splashAni 0.3s forwards;
+    animation-delay: 1.5s;
+}
+#splash_screen .melone_logo {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
