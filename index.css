@@ -61,7 +61,7 @@ main {
 .play_info .info_img {
     width: 45px;
     height: 45px;
-    background-color: gray;
+    background: url('https://cdnimg.melon.co.kr/cm2/album/images/112/17/255/11217255_20230404113821_500.jpg/melon/resize/104/quality/80/optimize') center/cover;
     border-radius: 3px;
 }
 .play_info .info_text {
@@ -78,7 +78,7 @@ main {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: gray;
+    background: url('https://cdnimg.melon.co.kr/cm2/artistcrop/images/005/49/800/549800_20230324133523_500.jpg?c81c20b00d3b47f2996ee580316888f7/melon/resize/416/quality/80/optimize') center/cover;
     margin: auto;
 }
 .recommend_info.favorite .play_info {
@@ -160,15 +160,47 @@ main {
     display: flex;
     overflow: auto; 
 }
-#recent_music ul li {
-    background-color: #00d344;
-    padding: 10px;
+#recent_music ul li {   
     border-radius: 3px;
     margin-right: 12px;       
 }
 #recent_music ul li .bg_img {
+    padding: 10px;
     width:150px;
     height: 150px;
+    background: url('https://cdnimg.melon.co.kr/cm2/album/images/112/24/180/11224180_20230414110629_500.jpg/melon/resize/360/quality/80/optimize') center/cover;
+}
+#recent_music ul li .bg_img.second {
+    background: url('https://cdnimg.melon.co.kr/cm2/album/images/112/24/414/11224414_20230414143818_500.jpg/melon/resize/360/quality/80/optimize') center/cover;
+}
+#recent_music ul li .bg_img.third {
+    background: url('https://cdnimg.melon.co.kr/cm2/album/images/112/24/179/11224179_20230414110424_500.jpg/melon/resize/360/quality/80/optimize') center/cover;
+}
+
+.playlist_bar {
+    margin-top:35px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top:1px solid rgba(0,0,0,0.3);
+}
+.playlist_info {
+    width: 50%;
+}
+.playlist_info h5 {
+    font-weight: 600;
+}
+.playlist_info p {
+    font-size: 14px;
+    opacity: 0.5;
+    line-height: 1.5;
+}
+.playlist_btn {
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
 }
 nav {
     width: 100%;
