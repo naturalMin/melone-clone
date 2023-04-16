@@ -1,0 +1,13 @@
+#play_btns {
+    width: 50%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.backward i , .forward i {
+    font-size: 40px;
+}
+.play i {
+    font-size: 50px;
+}

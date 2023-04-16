@@ -1,0 +1,74 @@
+@import "no-mobile.css";
+@import "variable.css";
+@import "play_btns.css";
+
+header {
+    margin-top: 35px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    width: 90%;
+    text-align: center;
+    margin-left: 22px;
+}
+.title h1 {
+    font-size: 18px;
+}
+.setting {
+    margin-right: 10px;
+}
+main {
+    padding: 10px;
+}
+.tab {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    padding: 20px 0;
+}
+.play.active {
+    color:var(--melone--color);
+}
+#playlist_container {
+    margin-top: 25px;
+}
+.playlist li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.album_cover {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    background: url('https://cdnimg.melon.co.kr/cm2/album/images/112/11/297/11211297_20230410151046_500.jpg?1af1b1d675154cbc4d581f9b36c75ebf/melon/resize/282/quality/80/optimize') center/cover;
+}
+.album_info {
+    width: 82%;
+    margin-left: 15px;
+}
+.album_info .active {
+    color:var(--melone--color);
+    font-weight: 600;
+    opacity: 1;
+}
+.album_info p {
+    line-height: 1.5;
+}
+.album_info p:first-child {
+    font-size: 15px;
+}
+.album_info p:last-child {
+    font-size: 14px;
+    opacity: 0.5;
+}
+.border_line {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0,0,0,0.3);
+    margin-top: 35px;
+}

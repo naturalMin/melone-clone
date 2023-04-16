@@ -1,4 +1,5 @@
 @import "no-mobile.css";
+@import "variable.css";
 
 
 header {
@@ -9,7 +10,7 @@ header {
 }
 .melone_logo {
     font-size: 25px;
-    color: #00d344;
+    color: var(--melone--color);
 }
 .menu i {
     font-size: 23px;
@@ -30,7 +31,7 @@ main {
 }
 #recommend ul li h3 {
     font-size: 15px;
-    color: #00c43e;
+    color: var(--melone--color);
 }
 .recommend_info {
     margin-top: 10px;
@@ -151,7 +152,7 @@ main {
     font-weight: 600;
 }
 .category span.active {
-    color: #00c43e;
+    color: var(--melone--color);
 }
 .category .line {
     width: 1px;
@@ -217,7 +218,7 @@ nav {
     border-top: 1px solid rgba(0,0,0,0.3);
 }
 nav .home {
-    color:#00c43e;
+    color:var(--melone--color);
 }
 @keyframes splashAni {
     0% {
