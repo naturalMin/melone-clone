@@ -225,6 +225,7 @@ nav .home {
     }
     100% {
         opacity: 0;
+        z-index: -1;
     }
 }
 #splash_screen {
