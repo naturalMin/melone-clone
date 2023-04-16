@@ -1,1 +1,103 @@
 @import "no-mobile.css";
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    padding:10px;
+}
+.play_info {
+    width: 100%;
+    text-align: center;
+}
+.play_info h3 {
+    font-size: 20px;
+}
+.play_info p {
+    font-size: 14px;
+    opacity: 0.5;
+    line-height: 1.5;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icons .more_icon {
+    margin-top: 15px;
+}
+#album_cover {
+    padding: 10px;
+    margin-top: 30px;
+}
+#album_cover .cover {
+    width: 280px;
+    height: 280px;
+    background: url('https://cdnimg.melon.co.kr/cm2/album/images/112/11/297/11211297_20230410151046_500.jpg?1af1b1d675154cbc4d581f9b36c75ebf/melon/resize/282/quality/80/optimize') center/cover;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+}
+#album_cover .heart {
+    margin-top: 20px;
+    margin-left: 57px;
+    display: flex;
+    align-items: center;
+}
+#album_cover .heart span {
+    font-size: 14px;
+}
+#lyrics {
+    margin-top: 50px;    
+}
+.lyrics_text {
+    text-align: center;
+}
+.lyrics_text p {
+    line-height: 1.8;
+}
+.lyrics_text p:first-child {
+    color:#00c43e;
+}
+#play_progress {
+    margin-top: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.progress_line .line {
+    width: 300px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.3);
+}
+.progress_line .line.active {
+    position: absolute;
+    top: 20px;
+    width: 120px;
+    background-color: #00c43e;
+}
+.progress_line .time {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+#play_btns {
+    width: 50%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.backward i , .forward i {
+    font-size: 40px;
+}
+.play i {
+    font-size: 50px;
+}
