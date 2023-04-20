@@ -21,6 +21,9 @@ header {
 main {
     padding: 10px;
 }
+#recommend {
+    margin-top: 70px;
+}
 #recommend h1 {
     font-size: 25px;
     font-weight: 600;
