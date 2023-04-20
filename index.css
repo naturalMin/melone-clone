@@ -5,9 +5,11 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 25px 10px;
     width: 100vw;
+    background-color: white;
+    position: fixed;
+    top: 0;
 }
 .melone_logo {
     font-size: 25px;
@@ -184,16 +186,15 @@ main {
 
 .playlist_bar {
     width: 100%;
-    margin-top:35px;
     padding: 10px;
     position: fixed;
-    bottom: 70px;
+    bottom: 60px;
     z-index: 10;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top:1px solid rgba(0,0,0,0.3);
     background-color: white;
+    border-top: 1px solid rgba(0,0,0,0.3);
 }
 .playlist_info {
     width: 50%;
@@ -221,7 +222,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
     border-top: 1px solid rgba(0,0,0,0.3);
     background-color: white;
 }
@@ -245,6 +246,7 @@ nav .home {
     top:0;
     animation: splashAni 0.3s forwards;
     animation-delay: 1.5s;
+    z-index: 100;
 }
 #splash_screen .melone_logo {
     height: inherit;
